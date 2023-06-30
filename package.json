@@ -1,11 +1,12 @@
 {
-  "name": "_crossfetch",
+  "name": "timeout-fetch-retry",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "build": "npx rimraf ./dist && npx tsc",
+    "start": "node ./dist/index.js",
+    "start:retry": "node ./dist/index.js retry",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
